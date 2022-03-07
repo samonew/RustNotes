@@ -13,7 +13,10 @@ fn main() {
    
  Some notes: 
  -Compile by using `rustc filename`
- -variables introducd with `let`
+ -variables introduced with `let`
+ -Rust uses snake case for functions like gpa_for NOT camel case: GpaFor
+ -Variables are `const` by default
+    -if you want to change it you have to declare it using `let mut`
  
  Example function:
  ```
@@ -29,8 +32,6 @@ fn main() {
 ```
 
 where `match` acts as `switch`
-
-**Rust uses snake case like gpa_for NOT camel case: GpaFor***
 
 
  
